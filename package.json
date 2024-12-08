@@ -1,0 +1,27 @@
+{
+  "name": "cdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@coinbase/coinbase-sdk": "^0.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "eciesjs": "^0.4.12",
+    "elliptic": "^6.6.1",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.1",
+    "multer": "^1.4.5-lts.1",
+    "viem": "^2.21.54"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
